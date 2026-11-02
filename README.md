@@ -8,7 +8,7 @@ Built by Pablo Malczewski between December 2020 and February 2021 (9 commits), s
 
 ## What it does
 
-- Sign-up and login with Devise. Besides email and password, a user registers with first and last name, province (a fixed list of Argentine provinces) and a 6-digit professional registration number ("matrícula"). A custom validation stops two users from sharing the same registration number within the same jurisdiction (CABA vs. the rest of the country).
+- Sign-up and login with Devise. Besides email and password, a user registers with a username, first and last name, province (a fixed list of Argentine provinces) and a 6-digit professional registration number ("matrícula"). A custom validation stops two users from sharing the same registration number within the same jurisdiction (CABA vs. the rest of the country).
 - After login, the profile page shows the user's details and the brand logos; a brand page lists its products.
 - "Emitir cheque" renders a PDF with WickedPDF/wkhtmltopdf: a voucher background image with the dentist's name, registration number, province and the current date printed on top.
 
